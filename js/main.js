@@ -16,31 +16,8 @@ function init(){
       })
       
     });
+
     
-    
-  //     gsap.from("#project02", {
-  //       scrollTrigger: {
-  //         trigger:"#project02",
-  //         start: 'top bottom-=50',
-  //         end: 'bottom bottom-=50',
-  //         // scrub: 1,
-  //         // markers: true
-  //     },
-  //       duration: 3,
-  //       x: -500,
-  //     })   
-    
-  //     gsap.from("#project01", {
-  //       scrollTrigger: {
-  //         trigger:"#project01",
-  //         start: 'top bottom-=50',
-  //         end: 'bottom bottom-=50',
-  //         // scrub: 1,
-  //         markers: true
-  //     },
-  //       duration: 3,
-  //       x: 500,
-  //     })   
   }
   
   window.addEventListener('load', function(){
