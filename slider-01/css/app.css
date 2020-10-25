@@ -26,6 +26,9 @@ h1, h2, h3, h4 {
 .projects {
     height: 100vh;
     position: relative;
+    right: 0;
+    /* visibility: hidden;
+    opacity: 0; */
 }
 .project {
     text-align: center;
@@ -33,7 +36,7 @@ h1, h2, h3, h4 {
     top: 0;
     left: 0;
     bottom: 0;
-    right: 0;
+
 }
 .project-image,
 .project-image img,
