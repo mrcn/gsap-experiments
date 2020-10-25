@@ -22,6 +22,18 @@ function init(){
         onStartParams: [projectClass] // 4. and then we update the class
     });
 
+    const tlOut = gsap.timeline();
+    tlOut.to(element, {
+        duration: 0.7, 
+        x: 250, 
+        autoAlpha: 0
+    });
+
+    const tlTransition = gsap.timeline();
+    tlTransition
+        .add(tlIn)
+        .add(tlOut, '+=2') 
+
     // 1. removing the body class 
     function updateClass(projectClass){
         document.querySelector('body').className = projectClass;
